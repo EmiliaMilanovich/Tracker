@@ -16,8 +16,6 @@ final class StatsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let label1 = UILabel()
-        label1.text = "Статистика"
     }
     
 //MARK: - Methods

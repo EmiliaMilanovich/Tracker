@@ -9,11 +9,13 @@ import UIKit
 
 final class TabBarController: UITabBarController {
     
+//MARK: - Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
         configureTabBar()
     }
     
+//MARK: - Private methods
     private func configureTabBar() {
         tabBar.backgroundColor = Color.whiteDay
         tabBar.tintColor = Color.active

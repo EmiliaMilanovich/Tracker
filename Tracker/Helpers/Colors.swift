@@ -8,14 +8,14 @@
 import UIKit
 
 enum Color {
-    static let blackDay = UIColor(hexString: "#757575")
+    static let blackDay = UIColor(hexString: "#1A1B22")
     static let blackNight = UIColor(hexString: "#FFFFFF")
     
     static let whiteDay = UIColor(hexString: "#FFFFFF")
     static let whiteNight = UIColor(hexString: "#1A1B22")
 
-    static let backgroundDay = UIColor(hexString: "#E6E8EB 30")
-    static let backgroundNight = UIColor(hexString: "#414141 85")
+    static let backgroundDay = UIColor(hexString: "#30E6E8EB")
+    static let backgroundNight = UIColor(hexString: "#85414141")
     
     static let gray = UIColor(hexString: "#AEAFB4")
     static let lightGray = UIColor(hexString: "#E6E8EB")
@@ -46,4 +46,6 @@ enum Color {
     static let colorSelection16 = UIColor(hexString: "#AD56DA")
     static let colorSelection17 = UIColor(hexString: "#8D72E6")
     static let colorSelection18 = UIColor(hexString: "#2FD058")
+    
+    static let colorSearchField = UIColor(hexString: "#12767680")
 }
